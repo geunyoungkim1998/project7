@@ -303,6 +303,7 @@ html,
         background-size: 100%;
         margin-top:59px;
         animation: movebg 25s ease-in-out infinite;
+        overflow: hidden;
       }
       >div:nth-of-type(2){
         width: 25%;
