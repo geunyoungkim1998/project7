@@ -45,6 +45,13 @@ a{
   text-decoration: none;
 }
 
+.swiper .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #040308;
+  margin: 10px 10px !important;
+}
+
 // swiper
 html,
     body {
