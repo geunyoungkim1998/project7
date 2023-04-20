@@ -227,7 +227,7 @@ html,
       }
     }
     >div:nth-of-type(1){
-      height: 30%;
+      height: 28%;
       >div:nth-of-type(1){
         margin-top:50px;
       }
@@ -236,13 +236,13 @@ html,
       }
     }
     >div:nth-of-type(2){
-      height: 25%;
+      height: 24%;
     }
     >div:nth-of-type(3){
-      height: 20%;
+      height: 24%;
     }
     >div:nth-of-type(4){
-      height: 25%;
+      height: 24%;
     }
   }
   >div:nth-of-type(3){
@@ -349,6 +349,12 @@ html,
 
 
 #slide4{
+  >div:nth-of-type(1){
+    >div:nth-of-type(1){
+      background-image: url('./../img/bgimg1.png');
+      background-size: cover;
+    }
+  }
   >div:nth-of-type(2){
     >div:nth-of-type(1){
       >div:nth-of-type(1){
@@ -359,6 +365,12 @@ html,
 }
 
 #slide5{
+  >div:nth-of-type(1){
+    >div:nth-of-type(1){
+      background-image: url('./../img/bgimg2.png');
+      background-size: cover;
+    }
+  }
   >div:nth-of-type(2){
     >div:nth-of-type(1){
       >div:nth-of-type(1){
@@ -369,6 +381,12 @@ html,
 }
 
 #slide6{
+  >div:nth-of-type(1){
+    >div:nth-of-type(1){
+      background-image: url('./../img/bgimg3.png');
+      background-size: cover;
+    }
+  }
   >div:nth-of-type(2){
     >div:nth-of-type(1){
       >div:nth-of-type(1){

@@ -230,7 +230,7 @@ body {
   color: #040308;
 }
 #slide2 > div:nth-of-type(2) > div:nth-of-type(1) {
-  height: 30%;
+  height: 28%;
 }
 #slide2 > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
   margin-top: 50px;
@@ -239,13 +239,13 @@ body {
   margin-top: 50px;
 }
 #slide2 > div:nth-of-type(2) > div:nth-of-type(2) {
-  height: 25%;
+  height: 24%;
 }
 #slide2 > div:nth-of-type(2) > div:nth-of-type(3) {
-  height: 20%;
+  height: 24%;
 }
 #slide2 > div:nth-of-type(2) > div:nth-of-type(4) {
-  height: 25%;
+  height: 24%;
 }
 #slide2 > div:nth-of-type(3) {
   width: 10%;
@@ -354,14 +354,26 @@ body {
     background-position: center top;
   }
 }
+#slide4 > div:nth-of-type(1) > div:nth-of-type(1) {
+  background-image: url("./../img/bgimg1.png");
+  background-size: cover;
+}
 #slide4 > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
   background-image: url("./../img/geunyoungkim1998.github.io_project5_.png");
 }
 
+#slide5 > div:nth-of-type(1) > div:nth-of-type(1) {
+  background-image: url("./../img/bgimg2.png");
+  background-size: cover;
+}
 #slide5 > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
   background-image: url("./../img/geunyoungkim1998.github.io_project4_G_sub1.html.png");
 }
 
+#slide6 > div:nth-of-type(1) > div:nth-of-type(1) {
+  background-image: url("./../img/bgimg3.png");
+  background-size: cover;
+}
 #slide6 > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
   background-image: url("./../img/geunyoungkim1998.github.io_project_2_.png");
 }
