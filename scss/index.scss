@@ -101,7 +101,7 @@ html,
   div:nth-of-type(2){
     display: flex;
     justify-content: space-between;
-    >div{
+    >div>a{
       transition:all 0.2s ease;
     }
     #homebtn:hover{
@@ -267,12 +267,13 @@ html,
     >div:nth-of-type(2){
       height: 20%;
       background-color: #040308;
-      color:white;
+      color:#e1e1d7;
       font-family: 'PyeongChangPeace-Bold';
       font-size: 90px;
       font-weight: 700;
       font-style: normal;
       line-height: 210%;
+      overflow: hidden;
     }
     >div:nth-of-type(3){
       height: 10%;
@@ -397,6 +398,12 @@ html,
 }
 
 #slide7{
+  >div:nth-of-type(1){
+    >div:nth-of-type(1){
+      background-image: url('./../img/bgimg4.png');
+      background-size: cover;
+    }
+  }
   >div:nth-of-type(2){
     >div:nth-of-type(1){
       >div:nth-of-type(1){
@@ -407,6 +414,12 @@ html,
 }
 
 #slide8{
+  >div:nth-of-type(1){
+    >div:nth-of-type(1){
+      background-image: url('./../img/bgimg5.png');
+      background-size: cover;
+    }
+  }
   >div:nth-of-type(2){
     >div:nth-of-type(1){
       >div:nth-of-type(1){
