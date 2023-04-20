@@ -44,7 +44,6 @@ a{
   color:#040308;
   text-decoration: none;
 }
-
 .swiper .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
@@ -108,19 +107,26 @@ html,
   div:nth-of-type(2){
     display: flex;
     justify-content: space-between;
-    >div>a{
+    >div>button{
       transition:all 0.2s ease;
+      border:none;
+      background-color: #e1e1d7;
+      font-family: 'PyeongChangPeace-Bold';
+      font-size: 20px;
+      color: #040308;
+      font-weight: 700;
+      font-style: normal;
     }
-    #homebtn:hover{
+    #homebtn>button:hover{
       color:#006dc2
     }
-    #aboutbtn:hover{
+    #aboutbtn>button:hover{
       color:#00b5ca;
     }
-    #probtn:hover{
+    #probtn>button:hover{
       color:#ff99ae;
     }
-    #conbtn:hover{
+    #conbtn>button:hover{
       color:#008e3c;
     }
   }
