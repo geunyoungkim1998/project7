@@ -1,5 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
+    resistance:true,
+    resistanceRatio:0,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
