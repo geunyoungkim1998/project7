@@ -349,7 +349,7 @@ body {
   justify-content: end;
   align-items: center;
 }
-#slide3 > div:nth-of-type(2) > div:nth-of-type(2) > div, #slide4 > div:nth-of-type(2) > div:nth-of-type(2) > div, #slide5 > div:nth-of-type(2) > div:nth-of-type(2) > div, #slide6 > div:nth-of-type(2) > div:nth-of-type(2) > div, #slide7 > div:nth-of-type(2) > div:nth-of-type(2) > div, #slide8 > div:nth-of-type(2) > div:nth-of-type(2) > div {
+#slide3 > div:nth-of-type(2) > div:nth-of-type(2) > a, #slide4 > div:nth-of-type(2) > div:nth-of-type(2) > a, #slide5 > div:nth-of-type(2) > div:nth-of-type(2) > a, #slide6 > div:nth-of-type(2) > div:nth-of-type(2) > a, #slide7 > div:nth-of-type(2) > div:nth-of-type(2) > a, #slide8 > div:nth-of-type(2) > div:nth-of-type(2) > a {
   width: 13%;
   border-left: 2px solid #040308;
   background-color: #00b5ca;
